@@ -1,0 +1,19 @@
+{
+  "name": "node0226001",
+  "version": "1.0.0",
+  "description": "node test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanbyeolkang/node0226001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanbyeolkang/node0226001/issues"
+  },
+  "homepage": "https://github.com/hanbyeolkang/node0226001#readme"
+}
