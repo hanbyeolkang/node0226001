@@ -2,14 +2,14 @@
 
 const id = document.querySelector("#id"),
     name = document.querySelector("#name"),
-    password = document.querySelector("#psword"),
+    psword = document.querySelector("#psword"),
     confirmPassword = document.querySelector("#confirm-psword"),
     registerBtn = document.querySelector("#button");
 
 registerBtn.addEventListener("click", register);
 
 function register() {
-    if (!id.value)return alert("아이디를 입력해주십시오.");
+    if (!id.value) return alert("아이디를 입력해주십시오.");
     if (psword.value !== confirmPassword.value) return alert("비밀번호가 일치하지 않습니다.");
 
     const req = {
